@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
+    
+multipart:
+  max-file-size: 999999999
+  max-request-size: 999999999
+  maxFileSize: 999999999
+  maxRequestSize: 999999999      
+
+spring:
+  main:
+    show_banner: false
+  application:
+    name: passwordmeter

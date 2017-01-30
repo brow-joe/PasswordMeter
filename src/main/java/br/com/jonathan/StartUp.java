@@ -12,7 +12,5 @@ public final class StartUp {
 		SpringApplication.run(StartUp.class, args);
 	}
 
-	public StartUp with() {
-		return this;
-	}
+	
 }
